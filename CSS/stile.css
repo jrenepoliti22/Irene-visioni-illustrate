@@ -1,0 +1,229 @@
+body {
+    font-family:sans-serif ;
+    background-color: #fffaf5;  
+}
+
+h1 {
+    max-width: 1000px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.paragrafo1  {
+    text-align: left;
+    padding: 20px 30px 40px 100px;     
+}
+
+.paragrafo2 {
+    text-align: left;
+    padding: 50px 30px 40px 100px;
+}    
+
+menu, a{
+font-family: sans-serif ; 
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  text-decoration: none; 
+}
+
+nav {
+padding: 10px 40px 20px 500px;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+header nav ul{
+margin: 20;
+padding: 0;
+list-style: none;
+display: flex;
+gap: 80px
+}
+
+header a{
+     text-decoration: none;
+     color: black; 
+}
+
+main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+img {
+    width: 315px;
+    height: 449;
+}
+
+h3 {
+    text-align: center;
+}
+
+.paragrafo3 { 
+    text-align: center;
+}
+
+footer {
+    padding: 40px 30px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 40px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    line-height: normal;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#titolo2{
+font-size: 40px;
+padding-top: 50px;
+padding-left: 1000px ;
+font-weight: 400;
+}
+
+.nomi{
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.testo2 {
+    padding-top: 30px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#leo {
+    transform: rotate(90deg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#hair {
+    transform: rotate(-90deg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bath{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bread{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#scratch{
+transform: rotate(-90deg);
+padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#wool {
+    transform: rotate(90deg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#umbr{
+    transform: rotate(90deg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imgs2 {
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+#titolo3, #titolo8, #titolo11, #titolo14{
+font-size: 40px;
+padding-top: 50px;
+padding-left: 1000px ;
+font-weight: 400;
+}
+
+
+#titolo4, #titolo7, #titolo9, #titolo10, #titolo12, #titolo15{
+font-size: 32px;
+padding-top: 50px;
+font-weight: 400;
+}
+
+#titolo5{
+font-size: 32px;
+padding-top: -20px;
+}
+
+.testo4, .testo5, .testo6, .testo7, .testo10 {
+    max-width: 400px;
+}
+
+.imgs3, .imgs4 {
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+#titolo6 {
+    font-size: 40px;
+padding-top: 50px;
+padding-left: 800px ;
+font-weight: 400;
+}
+
+.imgs5 {
+    display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+    padding-left: 500px;
+}
+
+.testo8 {
+    max-width: 500px;
+}
+
+.testo9 {
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.nomi {
+line-height: 50px;
+
+}
+
+
+
+
