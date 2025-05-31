@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>Visioni Illusrate</title>
     <link rel="stylesheet" href="CSS/stile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
 <header>
     <nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
         <ul class="menu">
             <li><a href="index.html">VISIONI ILLUSTRATE</a></li>
             <li><a href="index.html">Home</a></li>
@@ -17,14 +20,14 @@
         </nav>
 </header>
 <main>
-<body>
+
   <h3 id="titolo14"> <em>Info utili</em></h3>  
   <div class="testo9">
    <p><em>La mostra "Visioni Illustrate:</em> <br>“Viaggio nell'Illustrazione Contemporanea"
 si terrà il <strong>primo maggio alle 18:00 presso la sede Accademia di belle arti di Catania in via Franchetti.</strong></p>
    </div>
    
-   <h4 id="titolo15"></h4><em>LABORATORIO BAMBINI</em></h4>
+   <h4 id="titolo15"><em>LABORATORIO BAMBINI</em></h4>
    <div class="testo10">
    <p>laboratorio creativo per bambini è un'avventura artistica pensata per stimolare l'immaginazione e la creatività dei più piccoli. </p>
    <p>Attraverso attività manuali, disegno e pittura, i bambini avranno l'opportunità di esplorare diverse tecniche artistiche in un ambiente divertente e accogliente. 
@@ -33,7 +36,8 @@ Guidati da istruttori esperti, impareranno a esprimere le proprie idee e emozion
 <p>Un'esperienza educativa e coinvolgente, perfetta per liberare la fantasia e il talento di ogni bambino</p>
 </div>
 
-</body>
+
+
 </main>
 <footer>
         <nav>
@@ -47,4 +51,14 @@ Guidati da istruttori esperti, impareranno a esprimere le proprie idee e emozion
     
         
     </footer>
+    
+    <script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+</script>
+    
+
+</body>
 </html>

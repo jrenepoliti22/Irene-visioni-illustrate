@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>Visioni Illusrate</title>
     <link rel="stylesheet" href="CSS/stile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
 <header>
     <nav>
+       <div class="hamburger" onclick="toggleMenu()">☰</div>
         <ul class="menu">
             <li><a href="index.html">VISIONI ILLUSTRATE</a></li>
             <li><a href="index.html">Home</a></li>
@@ -17,16 +20,16 @@
         </nav>
 </header>
 <main>
-<body>
+
   <h3 id="titolo11"> <em>Mostra</em></h3>  
-  <h4 id="titolo12"></h4><em>INAUGURAZIONE</em></h4>
+  <h4 id="titolo12"><em>INAUGURAZIONE</em></h4>
   <div class="testo7">
    <p>La mostra "Visioni Illustrate: Viaggio nell'Illustrazione Contemporanea" inaugurerà il primo maggio alle 18:00, segnando l'inizio di un'esclusiva esposizione dedicata all'illustrazione contemporanea che promette di essere un punto di riferimento culturale per il mese a venire.</p>
    <p>Questo evento speciale offrirà agli appassionati d'arte, agli illustratori, ai designer e al pubblico generale l'opportunità di immergersi in un mondo dove la creatività non conosce confini.</p>
    <p>L'inaugurazione sarà non solo un'anteprima delle opere esposte, ma anche un'occasione per incontrare alcuni degli artisti partecipanti, condividere pensieri e discutere le diverse interpretazioni e ispirazioni dietro ogni pezzo.</p>
    </div>
    
-   <h4 id="titolo13"></h4><em>INFO MOSTRA</em></h4>
+   <h4 id="titolo13"><em>INFO MOSTRA</em></h4>
    <div class="testo8">
    <p>Visioni Illustrate: Viaggio nell'Illustrazione Contemporanea è una mostra esclusiva che apre una finestra sul vibrante <strong> mondo dell'illustrazione contemporanea</strong>, portando alla luce le più innovative e suggestive espressioni artistiche di questo settore.</p> 
    <p>Attraversando una varietà di stili, tecniche e temi, questa esposizione celebra la <strong> diversità e la ricchezza creativa </strong> degli illustratori contemporanei, offrendo ai visitatori un viaggio affascinante attraverso la loro visione del mondo.</p>
@@ -37,7 +40,8 @@
    <p>Curata con l'intento di ispirare e coinvolgere, <strong>la mostra è un invito a scoprire le infinite possibilità espressive </strong> dell'illustrazione contemporanea, promuovendo un apprezzamento più profondo per questa forma d'arte sempre in evoluzione.</p>
    <p>Visioni Illustrate è quindi un must per appassionati d'arte, illustratori, designer e chiunque sia interessato a esplorare le nuove frontiere dell'espressione creativa.</p>
 </div>
-</body>
+
+
 </main>
 <footer>
         <nav>
@@ -51,4 +55,13 @@
     
         
     </footer>
+      <script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+</script>
+ 
+</body>
+
 </html>

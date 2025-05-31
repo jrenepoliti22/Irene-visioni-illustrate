@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <title>Visioni Illustrate</title>
     <link rel="stylesheet" href="CSS/stile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header>
     <nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
         <ul class="menu">
             <li><a href="index.html">VISIONI ILLUSTRATE</a></li>
             <li><a href="index.html">Home</a></li>
@@ -27,13 +29,13 @@
         <p>La mostra "Visioni Illustrate": <br> “Viaggio nell'Illustrazione Contemporanea" inaugurerà il <strong>primo maggio alle 18:00 presso Accademia di belle arti di Catania.</strong></p>
         </div>
 
-        <div> 
-            <img src="immagini/img1.svg" alt="">
-            <img src="immagini/img2.svg" alt="">
-            <img src="immagini/img3.svg" alt="">
-            <img src="immagini/img4.jpg" alt="">
+        <div class="accavallate">
+  <img src="Img/img1.svg" alt="">
+  <img src="Img/img2.svg" alt="">
+  <img src="Img/img3.svg" alt="">
+  <img src="Img/img4.jpg" alt="">
+</div>
 
-        </div>
           
         <div class="paragrafo2">
          <p>Segnando l'inizio di un'esclusiva esposizione dedicata all'illustrazione contemporanea che promette di essere un punto di riferimento culturale per il mese a venire.</p>
@@ -67,5 +69,12 @@
     
         
     </footer>
+    <script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+</script>
+
 </body>
 </html>

@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>Visioni Illusrate</title>
     <link rel="stylesheet" href="CSS/stile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
 <header>
     <nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
         <ul class="menu">
             <li><a href="index.html">VISIONI ILLUSTRATE</a></li>
             <li><a href="index.html">Home</a></li>
@@ -17,7 +20,7 @@
         </nav>
 </header>
 <main>
-<body>
+
     <h3 id="titolo2"> <em>Artisti</em></h3>
    <div class="nomi">
     <a href="adrianjohnson.html"><strong>Adrian Johnson</strong></a>
@@ -66,5 +69,13 @@
     
         
     </footer>
+    <script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+</script>
+
+
 </body>
 </html>
